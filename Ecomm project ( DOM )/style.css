@@ -91,8 +91,11 @@ justify-content: space-between;
     color: white;
 }
 
+
 .form{
+    
 display: none;
+flex-direction: column;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.516);
@@ -100,7 +103,7 @@ display: none;
     top: 0;
     left: 0;
        justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 form{
@@ -118,4 +121,19 @@ input{
     outline: none;
     border: 1px solid gray;
     border-radius: 10px;
+}
+
+
+
+.form .top {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#cross_button {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
 }
